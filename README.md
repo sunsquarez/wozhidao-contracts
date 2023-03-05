@@ -1,4 +1,4 @@
-# Getting Started
+# Introduction
 This is a Hardhat project that includes two Solidity smart contracts, `AccountManager` and `QuestionManager`, designed for a [simple Q&A platform dapp](https://wozhidao.vercel.app/). Please note that the dapp is for demonstration purposes only and should not be used for production use cases.
 
 ## AccountManager
