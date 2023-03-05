@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# Getting Started
+This is a Hardhat project that includes two Solidity smart contracts, `AccountManager` and `QuestionManager`, designed for a simple Q&A platform dapp.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## AccountManager
+The `AccountManager` contract is responsible for managing user accounts. It allows users to create an account by providing their username, headline, location, LinkedIn profile, Github profile, and personal website. Once an account is created, its information is stored in the contract's internal mapping with the user's Ethereum address as the key. The contract also allows users to deactivate their account.
+## QuestionManager
+The `QuestionManager` contract is responsible for managing questions asked by users. It allows users to create a question by providing the question title, description, and reward amount in Ether. Once a question is created, its information is stored in the contract's internal mapping with a unique ID as the key. The contract also allows other users to answer the question and claim the reward if their answer is accepted by the question creator.
